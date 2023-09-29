@@ -31,6 +31,6 @@ app.post("/", function (req, res) {
     res.redirect('/');
 })
 
-app.listen(3000, function () {
-    console.log("server is running on 3000");
+app.listen(443, function () {
+    console.log("server is running on port 443");
 })
